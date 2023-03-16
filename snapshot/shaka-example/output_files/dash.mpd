@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Generated with https://github.com/google/shaka-packager version v2.6.1-634af65-release-->
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd" xmlns:cenc="urn:mpeg:cenc:2013" profiles="urn:mpeg:dash:profile:isoff-live:2011" minBufferTime="PT2S" type="dynamic" publishTime="2023-03-15T00:51:18Z" availabilityStartTime="2023-03-15T00:28:50Z" minimumUpdatePeriod="PT8S" timeShiftBufferDepth="PT300S" suggestedPresentationDelay="PT30S">
+  <Period id="0" start="PT0S">
+    <AdaptationSet id="0" contentType="video" maxWidth="1694" maxHeight="720" frameRate="12288/512" segmentAlignment="true" par="40:17">
+      <ContentProtection value="cenc" schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="cd4855b8-1036-5254-9b9b-a1bfd837a3cb"/>
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+        <cenc:pssh>AAAAKnBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAAoiAhI0SOPclZsG</cenc:pssh>
+      </ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:1077efec-c0b2-4d02-ace3-3c1e52e2fb4b">
+        <cenc:pssh>AAAAdHBzc2gBAAAAEHfv7MCyTQKs4zweUuL7SwAAAAXcjVQsRx9fjJBIYc2HDil2zUhVuBA2UlSbm6G/2Dejy4Ln5XDJdVGrupbQun7BpsVod7/ZyFJRLZPbRaa5y8fu8cJAIqxTWHifgkOn6gK1CwAAAAA=</cenc:pssh>
+      </ContentProtection>
+      <Representation id="0" bandwidth="7179512" codecs="avc1.42c020" mimeType="video/mp4" sar="1:1" width="1694" height="720">
+        <SegmentTemplate timescale="12288" initialization="video_720p_2M_h264_init.mp4" media="video_720p_2M_h264_$Number$.mp4" startNumber="263">
+          <SegmentTimeline>
+            <S t="12877824" d="49152" r="75"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+      <Representation id="1" bandwidth="3811752" codecs="avc1.42c01f" mimeType="video/mp4" sar="1:1" width="1130" height="480">
+        <SegmentTemplate timescale="12288" initialization="video_480p_1M_h264_init.mp4" media="video_480p_1M_h264_$Number$.mp4" startNumber="263">
+          <SegmentTimeline>
+            <S t="12877824" d="49152" r="75"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="1" contentType="audio" lang="en" segmentAlignment="true">
+      <ContentProtection value="cenc" schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="f1c24022-ac53-5878-9f82-43a7ea02b50b"/>
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+        <cenc:pssh>AAAAKnBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAAAoiAhI0SOPclZsG</cenc:pssh>
+      </ContentProtection>
+      <ContentProtection schemeIdUri="urn:uuid:1077efec-c0b2-4d02-ace3-3c1e52e2fb4b">
+        <cenc:pssh>AAAAdHBzc2gBAAAAEHfv7MCyTQKs4zweUuL7SwAAAAXcjVQsRx9fjJBIYc2HDil2zUhVuBA2UlSbm6G/2Dejy4Ln5XDJdVGrupbQun7BpsVod7/ZyFJRLZPbRaa5y8fu8cJAIqxTWHifgkOn6gK1CwAAAAA=</cenc:pssh>
+      </ContentProtection>
+      <Representation id="2" bandwidth="138517" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <SegmentTemplate timescale="48000" initialization="audio_eng_2c_128k_aac_init.mp4" media="audio_eng_2c_128k_aac_$Number$.mp4" startNumber="261">
+          <SegmentTimeline>
+            <S t="49920000" d="192512"/>
+            <S t="50112512" d="191488"/>
+            <S t="50304000" d="192512"/>
+            <S t="50496512" d="191488"/>
+            <S t="50688000" d="192512"/>
+            <S t="50880512" d="191488"/>
+            <S t="51072000" d="192512"/>
+            <S t="51264512" d="191488"/>
+            <S t="51456000" d="192512"/>
+            <S t="51648512" d="191488"/>
+            <S t="51840000" d="192512"/>
+            <S t="52032512" d="191488"/>
+            <S t="52224000" d="192512"/>
+            <S t="52416512" d="191488"/>
+            <S t="52608000" d="192512"/>
+            <S t="52800512" d="191488"/>
+            <S t="52992000" d="192512"/>
+            <S t="53184512" d="191488"/>
+            <S t="53376000" d="192512"/>
+            <S t="53568512" d="191488"/>
+            <S t="53760000" d="192512"/>
+            <S t="53952512" d="191488"/>
+            <S t="54144000" d="192512"/>
+            <S t="54336512" d="191488"/>
+            <S t="54528000" d="192512"/>
+            <S t="54720512" d="191488"/>
+            <S t="54912000" d="192512"/>
+            <S t="55104512" d="191488"/>
+            <S t="55296000" d="192512"/>
+            <S t="55488512" d="191488"/>
+            <S t="55680000" d="192512"/>
+            <S t="55872512" d="191488"/>
+            <S t="56064000" d="192512"/>
+            <S t="56256512" d="191488"/>
+            <S t="56448000" d="192512"/>
+            <S t="56640512" d="191488"/>
+            <S t="56832000" d="192512"/>
+            <S t="57024512" d="191488"/>
+            <S t="57216000" d="192512"/>
+            <S t="57408512" d="191488"/>
+            <S t="57600000" d="192512"/>
+            <S t="57792512" d="191488"/>
+            <S t="57984000" d="192512"/>
+            <S t="58176512" d="191488"/>
+            <S t="58368000" d="192512"/>
+            <S t="58560512" d="191488"/>
+            <S t="58752000" d="192512"/>
+            <S t="58944512" d="191488"/>
+            <S t="59136000" d="192512"/>
+            <S t="59328512" d="191488"/>
+            <S t="59520000" d="192512"/>
+            <S t="59712512" d="191488"/>
+            <S t="59904000" d="192512"/>
+            <S t="60096512" d="191488"/>
+            <S t="60288000" d="192512"/>
+            <S t="60480512" d="191488"/>
+            <S t="60672000" d="192512"/>
+            <S t="60864512" d="191488"/>
+            <S t="61056000" d="192512"/>
+            <S t="61248512" d="191488"/>
+            <S t="61440000" d="192512"/>
+            <S t="61632512" d="191488"/>
+            <S t="61824000" d="192512"/>
+            <S t="62016512" d="191488"/>
+            <S t="62208000" d="192512"/>
+            <S t="62400512" d="191488"/>
+            <S t="62592000" d="192512"/>
+            <S t="62784512" d="191488"/>
+            <S t="62976000" d="192512"/>
+            <S t="63168512" d="191488"/>
+            <S t="63360000" d="192512"/>
+            <S t="63552512" d="191488"/>
+            <S t="63744000" d="192512"/>
+            <S t="63936512" d="191488"/>
+            <S t="64128000" d="192512"/>
+            <S t="64320512" d="191488"/>
+            <S t="64512000" d="192512"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
